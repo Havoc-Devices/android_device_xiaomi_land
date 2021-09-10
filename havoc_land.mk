@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
-#               2017-2018 The LineageOS Project
+# Copyright (C) 2021 The Havoc OS Project
+#
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Havoc stuff
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Inherit from land device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,8 +29,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := land
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_land
-PRODUCT_MODEL := Redmi 3S
+PRODUCT_NAME := havoc_land
+PRODUCT_MODEL := Redmi 3S/3X
 
 TARGET_BOOT_ANIMATION_RES := 720
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -44,3 +44,8 @@ BUILD_FINGERPRINT := Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/releas
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# Havoc Specific props
+HAVOC_BUILD_TYPE := Official
+HAVOC_MAINTAINER := Sairam Majgaonkar (Sairam60)
+HAVOC_GROUP_URL := https://t.me/havoc_land
