@@ -44,8 +44,3 @@ BUILD_FINGERPRINT := Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/releas
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-# Havoc Specific props
-HAVOC_BUILD_TYPE := Official
-HAVOC_MAINTAINER := Sairam Majgaonkar (Sairam60)
-HAVOC_GROUP_URL := https://t.me/havoc_land

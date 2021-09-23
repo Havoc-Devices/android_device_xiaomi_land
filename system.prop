@@ -45,3 +45,9 @@ ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
 ro.lmk.use_minfree_levels=true
 
+# Havoc Specific props
+ro.havoc.group.url=https://t.me/havoc_land
+ro.havoc.maintainer=Sairam Majgaonkar
+ro.havoc.maintainer.username=Sairam60
+ro.havoc.device.name=Xiaomi Redmi 3S/3X
+
