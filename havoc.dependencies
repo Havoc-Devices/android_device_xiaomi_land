@@ -1,16 +1,16 @@
 [
  {
-   "repository": "kernel_xiaomi_msm8937",
+   "repository": "android_kernel_xiaomi_land",
    "target_path": "kernel/xiaomi/msm8937",
    "remote": "github"
  },
  {
-   "repository": "vendor_xiaomi_land",
+   "repository": "android_vendor_xiaomi_land",
    "target_path": "vendor/xiaomi/land",
    "remote": "github"
  },
  {
-   "repository": "hardware_sony_timekeep",
+   "repository": "android_hardware_sony_timekeep",
    "target_path": "hardware/sony/timekeep",
    "remote": "github"
  }
